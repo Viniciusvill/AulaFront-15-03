@@ -8,6 +8,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     margin: 1em;
+    margin-bottom: 2em;
     /* display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,8 +16,8 @@ header {
 }
 
 #input-pesquisa {
-    width: 500px;
-    height: 30px;
+    width: 550px;
+    height: 40px;
     border-radius: 2em;
     border: 1px solid #efefef;
     padding-left: 2em;
@@ -27,4 +28,51 @@ header {
 #input-pesquisa:focus {
     outline: 0;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    margin: 2em;
+}
+
+.titulo {
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.9em;
+    margin-bottom: 0.7em;
+}
+
+.info-canal {
+    display: flex;
+}
+
+/* .info-canal p{
+    margin-left: 1em;
+} */
+
+#foto-canal {
+    border-radius: 2em;
+    margin-right: 0.6em;
+}
+
+#nome-inscritos {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nome-canal {
+    font-size: medium;
+}
+
+#numero-inscritos {
+    font-size: small;
+}
+
+#descricao {
+    background-color: rgb(226, 226, 226);
+    border-radius: 1em;
+    padding: 0.4em;
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
